@@ -1,60 +1,12 @@
-# p5.js Template
+** # HOMEWORK 04 Part A **
 
-This is a README file that can be used to describe and document your assignment.
-
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+### SUMMARY
+The goal of this code is to keep track of time in a unique way. I decided to keep track of time by color change. The three tiers which I chose to display are seconds/minutes/hours. 
 
 ---
----
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+### PLAN
+My idea was first to create 3 for-loops that indicate a color specification as x increases. I wanted to split the window into three parts. I chose rectangles to start off simple.
 
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+### EXECUTION
+I realized that it would be hard to impliment a for loop that considered position and time in one, and found that I actually did not need the for loop at all. I created a clock that increase color pigment with time -- yellow represents seconds, red represents minutes, and blue represents hours.
